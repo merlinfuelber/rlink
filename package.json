@@ -1,0 +1,30 @@
+{
+  "name": "rlink",
+  "version": "1.0.1",
+  "description": "Clone a directory by recreating the directory structure inside the target directory and linking all of the files to the source files. It's way faster and disk space efficient than copying the whole stuff.",
+  "main": "lib/rlink.js",
+  "bin": {
+    "rlink": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qbcat/rlink.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qbcat/rlink/issues"
+  },
+  "keywords": [
+    "symlink",
+    "directory",
+    "link",
+    "recursive",
+    "rlink"
+  ],
+  "author": "Merlin Fuelber",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.5.0",
+    "fs-extra": "^3.0.1",
+    "walk": "^2.3.9"
+  }
+}
